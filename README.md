@@ -24,8 +24,7 @@ Responsiveness             |
 
 ## Website Description
 
-This is a small, but growing personal project website designed to provide a web-based interface 
-for accessing images taken by NASA's Opportunity Mars rover. The webpage includes a simple dropdown 
+This is a small, but growing personal project website designed to provide a web-based interface for accessing images taken by NASA's Opportunity Mars rover. The webpage includes a simple dropdown 
 menu for choosing an image based on the Mars sol on which the image was taken. The webpage was created 
 with a "mobile first" approach and uses Bootstrap and JQuery for responsiveness, and NASA's Mars Rover 
 Photos RESTful API to access images. 
