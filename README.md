@@ -10,11 +10,11 @@
 
 Index                      |  Sol chosen             
 :-------------------------:|:-------------------------:
-![ScreenShot](/images/ss1.jpg)  |  ![ScreenShot](/images/ss2.jpg) 
+![ScreenShot](/images/ss1.png)  |  ![ScreenShot](/images/ss2.png) 
 
 Responsiveness             |             
 :-------------------------:|
-<img src="images/ss3.jpg" width="50%"> 
+<img src="images/ss3.png" width="50%"> 
 
 [Back to Table of Contents](#table-of-contents)
 
