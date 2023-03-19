@@ -1,0 +1,39 @@
+h1, h3 {
+    color: white;
+}
+
+.opper {
+    height: 350px; 
+    width: 400px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+#message {
+    margin-bottom: 30px;
+}
+
+#img-box {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 40px;
+    width: 50%;
+    height: 300px;
+}
+
+#sol-form {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#sol-label {
+    color: white;
+    margin-right: 10px;
+}
+
+#welcome {
+    padding-top: 50px;
+}

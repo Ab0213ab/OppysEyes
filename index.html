@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Oppy'sEyes Home</title>
+    <script src="javaScript/functions.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!---->
+    <style>
+        body {
+            margin-bottom: 60px;
+            height: 100%;
+            background-image: url("images/mars.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Oppy'sEyes</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="https://github.com/Ab0213ab" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/andrewbschaefer/"target="_blank">LinkedIn</a></li>
+                    <li><a href="https://www.nasa.gov/" target="_blank">NASA</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" id="welcome">
+        <h1>Welcome to Oppy'sEyes!</h1>
+        <h3 id="message">A website dedicated to helping you explore the red planet through 
+            the eyes of your favorite rover, Opportunity.</h3>
+    </div>
+
+    <div class="container" id ="img-box">
+        <center>
+            <div class="row">
+                <div class="col-lg-6" id="oppy">
+                    <img src="images/oppy.png" id="pic" class="opper">
+                </div>
+            </div>
+        </center>
+    </div>
+
+    <div class="container">
+        <form class="form-inline" action="#" id="sol-form">
+            <div class="form-group">
+                <label for="numberSelect" id="sol-label">Select a sol between 1 and 5111: </label>
+                <select class="form-control" id="numberSelect" name="numberSelect">
+                    <script>
+                        createNumberSelect();
+                    </script>
+                </select>
+                <button type="button" class="btn btn-primary" id="submit-button" onclick="callAPI()">Submit</button>
+          </form>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+          <span class="text-muted">Developed by Andrew B. Schaefer</span>
+        </div>
+      </footer>
+
+</body>
+</html>
