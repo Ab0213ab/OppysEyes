@@ -8,17 +8,13 @@
 
 ## Functionality Screenshots
 
-Calculation                 |  Exception Handling             
+Index                      |  Sol chosen             
 :-------------------------:|:-------------------------:
-![ScreenShot](/images/pch1.PNG)  |  ![ScreenShot](/images/pch2.PNG) 
+![ScreenShot](/images/ss1.PNG)  |  ![ScreenShot](/images/ss2.PNG) 
 
-Stored User Settings       |  ...             
-:-------------------------:|:-------------------------:
-![ScreenShot](/images/pch3.PNG)  |  ![ScreenShot](/images/pch4.PNG)
-
-XML Serialization/Deserialization  |             
+Responsiveness             |             
 :-------------------------:|
-<img src="images/pch5.PNG" width="50%"> 
+<img src="images/ss3.PNG" width="50%"> 
 
 [Back to Table of Contents](#table-of-contents)
 
