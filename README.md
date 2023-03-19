@@ -1,5 +1,7 @@
 # OppysEyes
 
+View website [here](https://ab0213ab.github.io/OppysEyes). 
+
 ## Table of Contents
 1. [Functionality Screenshots](#functionality-screenshots)
 2. [Website Description](#website-description)
@@ -10,11 +12,11 @@
 
 Index                      |  Sol chosen             
 :-------------------------:|:-------------------------:
-![ScreenShot](/images/ss1.PNG)  |  ![ScreenShot](/images/ss2.PNG) 
+![ScreenShot](/images/ss1.png)  |  ![ScreenShot](/images/ss2.png) 
 
 Responsiveness             |             
 :-------------------------:|
-<img src="images/ss3.PNG" width="50%"> 
+<img src="images/ss3.png" width="50%"> 
 
 [Back to Table of Contents](#table-of-contents)
 
